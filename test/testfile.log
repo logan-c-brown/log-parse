@@ -1,0 +1,21 @@
+Dec  1 00:16:28 x1e kernel: [30668.954129] mce: CPU11: Package temperature above threshold, cpu clock throttled (total events = 19867)
+Dec  1 00:16:28 x1e kernel: [30668.972043] mce: CPU8: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972046] mce: CPU2: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972104] mce: CPU0: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972106] mce: CPU7: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972106] mce: CPU1: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972107] mce: CPU6: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972108] mce: CPU10: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972109] mce: CPU5: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972109] mce: CPU4: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972110] mce: CPU3: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972111] mce: CPU11: Package temperature/speed normal
+Dec  1 00:16:28 x1e kernel: [30668.972111] mce: CPU9: Package temperature/speed normal
+Dec  1 00:19:03 x1e kernel: [30823.862817] usb 1-1: USB disconnect, device number 24
+Dec  1 00:22:59 x1e kernel: [31059.662409] usb 1-1: new high-speed USB device number 25 using xhci_hcd
+Dec  1 00:22:59 x1e kernel: [31059.812478] usb 1-1: New USB device found, idVendor=18d1, idProduct=4ee1, bcdDevice= 4.40
+Dec  1 00:22:59 x1e kernel: [31059.812483] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Dec  1 00:22:59 x1e kernel: [31059.812487] usb 1-1: Product: Pixel 2 XL
+Dec  1 00:22:59 x1e kernel: [31059.812490] usb 1-1: Manufacturer: Google
+Dec  1 00:22:59 x1e kernel: [31059.812492] usb 1-1: SerialNumber: 712KPSL1125150
+
