@@ -57,12 +57,11 @@ transformLog :: KernelLog -> Maybe ParsedLog
 transformLog log@KernelLog { timestamp,  machine, uptime, event, message} =
     do logDate <- parseLogTime $ "2019 " ++ timestamp
        time <- readMaybe uptime :: Maybe Double
-       return $ ParsedLog {date = logDate, machineName = machine, time, eventName = event, messageReply = message}
-
-
-formatLog :: String -> Maybe ParsedLog
-formatLog s = do kLog <- readLog s
-                 transformLog kLog
+       return $ ParsedLog { date = logDate
+                          , machineName = machine
+                          , time
+                          , eventName = event
+                          , messageReply = message }
 
 
 getCpuLog :: ParsedLog -> Maybe CpuLog

@@ -27,6 +27,7 @@ dependencies:
 - regex-compat
 - time
 - filepath
+- directory
 
 library:
   source-dirs: src
