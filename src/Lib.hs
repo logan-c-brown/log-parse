@@ -1,5 +1,4 @@
 {-# LANGUAGE NamedFieldPuns    #-}
-{-# LANGUAGE OverloadedStrings #-}
 module Lib where
 import           Control.Exception
 import           Data.Maybe

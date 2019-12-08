@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 729d29d54ac1e37453f2188eb1f2a463e32fcf9623eab6a1daf3cc6d99b67707
+-- hash: f8afe0e0495e08cc960e519dc587b9f7de976a6465bc6356ad35a147a25ce498
 
 name:           log-parse
 version:        0.1.0.0
@@ -33,12 +33,10 @@ library
   hs-source-dirs:
       src
   build-depends:
-      attoparsec
-    , base >=4.7 && <5
+      base >=4.7 && <5
     , directory
     , errors
     , filepath
-    , mtl
     , regex-compat
     , time
   default-language: Haskell2010
@@ -51,13 +49,11 @@ executable log-parse-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      attoparsec
-    , base >=4.7 && <5
+      base >=4.7 && <5
     , directory
     , errors
     , filepath
     , log-parse
-    , mtl
     , regex-compat
     , time
   default-language: Haskell2010
@@ -71,13 +67,11 @@ test-suite log-parse-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      attoparsec
-    , base >=4.7 && <5
+      base >=4.7 && <5
     , directory
     , errors
     , filepath
     , log-parse
-    , mtl
     , regex-compat
     , time
   default-language: Haskell2010
