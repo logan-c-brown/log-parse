@@ -76,5 +76,5 @@ cpuLogFilePath (CpuLog cpu mess) dir =  dir </> show cpu  <.> ".log"
 
 
 cpuLogWrite :: CpuLog -> FilePath -> IO ()
-cpuLogWrite log dirr = withFile ( cpuLogFilePath log dirr) WriteMode
+cpuLogWrite log dirr = withFile ( cpuLogFilePath log dirr) AppendMode 
                              (`hPrint` log)
